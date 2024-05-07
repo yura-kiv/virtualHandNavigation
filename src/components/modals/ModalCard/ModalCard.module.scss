@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  width: 360px;
+
+  .imgWrapper {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 12px;
+
+    .img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .additional {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.buttons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: end;
+}

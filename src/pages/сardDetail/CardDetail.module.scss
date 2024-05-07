@@ -1,0 +1,62 @@
+.wrapper {
+  position: relative;
+}
+
+.back {
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+
+  .imgWrapper {
+    position: relative;
+    height: 30vh;
+    width: 40vw;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+    .img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: scale 0.2s;
+    }
+  }
+
+  .content {
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .description {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .additional {
+      color: rgb(98, 98, 98);
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 24px;
+}
