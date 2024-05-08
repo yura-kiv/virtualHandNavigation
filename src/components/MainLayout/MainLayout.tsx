@@ -39,9 +39,7 @@ const MainLayout = () => {
     elementsRefs.current.hoverElementsRefs[element.id] = element;
   }, []);
 
-  const removeHoverElementsRefs = useCallback(() => {
-    // elementsRefs.current.hoverElementsRefs = {};
-  }, []);
+  const removeHoverElementsRefs = useCallback(() => {}, []);
 
   const onResults = useCallback((results: Results) => {
     if (canvasRef.current) {
